@@ -1,0 +1,12 @@
+.buttons{
+    background-color: var(--white-color);
+    padding-left: 20rem;
+    height: 20vh;
+    margin-top: 31rem;
+}
+
+.buttons button{
+    width: 10rem;
+    height: 4rem;
+    font-size: 1.5rem;
+}

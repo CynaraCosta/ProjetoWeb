@@ -1,0 +1,103 @@
+
+:root{
+    --white-color: #EDF6F9;
+    --blue-color: #4F6D7A;
+    --soft-blue-color: #C0D6DF;
+    --soft-bege: #E8DAB2;
+    --salmon: #DD6E42;
+}
+
+html, body{
+    margin:0;
+    padding: 0;
+    background-color: var(--soft-bege);
+}
+
+.menu-left *{
+    line-height: 3rem;
+    font-family: 'Montserrat';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.3rem;
+}
+
+.top h1, h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-me{
+    width: 20rem;
+    border-radius: 50%;
+}
+
+.bottom{
+    
+    margin-top: 1rem;
+}
+
+.bottom img{
+    width: 1.5rem;
+    padding-left: 3rem; 
+    transition: width 0.5s; 
+}
+
+.bottom img:hover{
+    width: 3rem;
+    
+}
+
+.intro{
+    font-family: 'Open Sans';
+    margin: .5rem;
+    font: 1.4rem 'Open Sans';
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    background-color: var(--white-color);
+    height: 6rem;
+    
+   
+}
+
+.buttons button{
+    width: 7rem;
+    height: 3.5rem;
+    border: 0;
+    border-radius: .8rem;
+    cursor: pointer;
+    font-family: 2rem 'Open Sans';
+    background-color: var(--blue-color);
+    transition: background 0.3s;
+}
+
+.buttons button:hover{
+    background-color: var(--soft-blue-color);
+}
+
+@media (min-width: 700px){
+    .intro{
+        padding-left: 25vw;
+        line-height: 2rem;
+    }
+
+    .buttons{
+        background-color: var(--white-color);
+        padding-left: 20%;
+        height: 20vh;
+        margin-top: 50vh;
+    }
+    
+    .buttons button{
+        width: 10rem;
+        height: 4rem;
+        font-size: 1.5rem;
+    }
+
+}

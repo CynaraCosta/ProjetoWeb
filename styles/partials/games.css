@@ -1,0 +1,17 @@
+.photos{
+    padding-left: 10rem;
+    padding-top: 5rem;
+}
+
+.photos img{
+    width: 27%;
+    padding: 1rem;
+    border-radius: 6%;
+    position: relative;
+}
+
+.photos img:hover{
+    width: 31%;
+    transition: all .2s ease-in-out
+}
+
